@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'BreeSerif-Regular';
+    src: url('Bree_Serif/BreeSerif-Regular.ttf');
+}
+*{
+    font-family: BreeSerif-Regular;
+} 
+body{
+    background-color: rgb(250, 230, 255);;
+}
+#div1{
+    box-shadow: 1px 5px 13px black;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    margin: 150px 480px;
+    background-color: white;
+}
+h1{
+    border-radius: 5px;
+    font-weight: normal;
+    background-color: #293b90;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+#logo{
+    width: 210px;
+    background-color: white;
+    margin-top: 20px;
+}
+#input{
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%;
+    padding: 17px;
+    border: 2px solid #98189a;
+    color: #98189a;
+    outline: none;
+}
+#input2{
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 80%;
+    padding: 17px;
+    border: 2px solid #98189a;
+    color: #98189a;
+    outline: none;
+}
+#div2{
+    color: #98189a;
+    margin: 0px 65px ;
+}
+p{
+    display: inline;
+    font-size: 23px;
+}
+#Signup{
+    color: #007bff;
+    font-size: 23px;
+    text-decoration: none;
+}
+#Signup:hover{
+    text-decoration: underline;
+    color: #293b90;
+}
+#para2{
+    margin-left: 190px;
+}
+button{
+    border-radius: 50px;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #98189a;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #98189a;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #98189a;
+  }
