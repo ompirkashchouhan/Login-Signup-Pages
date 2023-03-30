@@ -89,11 +89,67 @@ button{
     color: #98189a;
     opacity: 1; /* Firefox */
   }
-  
+   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #98189a;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: #98189a;
+  }
+  @media only screen and (max-width:360px){
+    #div1{
+        width: 95%;
+        margin: 50px auto;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #logo{
+        width: 40%;
+        margin: auto;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #logo{
+        width: 40%;
+        margin:10px auto;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #input{
+        width: 270px;
+        margin:10px auto;
+        padding: 5px;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #input2{
+        width: 270px;
+        margin:5px auto;
+        padding: 5px;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #div2{
+        width: 600px;
+        margin:10px auto;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #para1{
+        font-size: 15px;
+        margin-right:190px;
+        margin-left: -50px;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #Signup{
+        font-size: 15px;
+    }
+  }
+  @media only screen and (max-width:360px){
+    #para2{
+        font-size: 15px;
+        margin-left: 60px;
+    }
   }
