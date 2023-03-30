@@ -79,7 +79,7 @@ button{
     border-radius: 50px;
     width: 40%;
     padding: 10px;
-    background-color: white;
+    background-image:linear-gradient(to right,#293b90,#98189a);
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
